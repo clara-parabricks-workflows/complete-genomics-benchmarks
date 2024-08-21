@@ -20,3 +20,10 @@ download_data.sh
 ```
 downsample_wgs_data.sh 
 ```
+
+## AWS Instances 
+
+```
+4 L4 - g6.24xlarge 
+4 H100 - p5.48xlarge (need to specify only 4 GPUs)
+```
