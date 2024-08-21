@@ -1,5 +1,6 @@
 #!/bin/bash 
 
+mkdir -p outdir
 mkdir -p data
 cd data
 
@@ -55,14 +56,12 @@ cd deepvariant_models
 
 # T7 weights 
 HTTPDIR=https://storage.googleapis.com/deepvariant/complete-case-study-testdata
-curl ${HTTPDIR}/complete-t7/weights-51-0.995354.ckpt.data-00000-of-00001 > input/weights-51-0.995354.ckpt.data-00000-of-00001
-curl ${HTTPDIR}/complete-t7/weights-51-0.995354.ckpt.index > input/weights-51-0.995354.ckpt.index
+curl ${HTTPDIR}/complete-t7/weights-51-0.995354.ckpt.data-00000-of-00001 > weights-51-0.995354.ckpt.data-00000-of-00001
+curl ${HTTPDIR}/complete-t7/weights-51-0.995354.ckpt.index > weights-51-0.995354.ckpt.index
 
 # G400 weights 
-HTTPDIR=https://storage.googleapis.com/deepvariant/complete-case-study-testdata
-curl ${HTTPDIR}/complete-g400/weights-60-0.993753.ckpt.data-00000-of-00001 > input/weights-60-0.993753.ckpt.data-00000-of-00001
-curl ${HTTPDIR}/complete-g400/weights-60-0.993753.ckpt.index > input/weights-60-0.993753.ckpt.index
+curl ${HTTPDIR}/complete-g400/weights-60-0.993753.ckpt.data-00000-of-00001 > weights-60-0.993753.ckpt.data-00000-of-00001
+curl ${HTTPDIR}/complete-g400/weights-60-0.993753.ckpt.index > weights-60-0.993753.ckpt.index
 
 cd - 
 
-mkdir -p outdir
