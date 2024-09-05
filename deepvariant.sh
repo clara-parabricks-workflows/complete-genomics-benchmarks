@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 DOCKER_IMAGE="nvcr.io/nvidia/clara/clara-parabricks:4.1.0-1"
-OUT_BAM="$0"
+OUT_BAM="$1"
 OUT_VCF="$(basename -s .bam $OUT_BAM).vcf"
 LOG_FILE="$(basename -s .bam $OUT_BAM).log"
 
