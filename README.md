@@ -17,6 +17,8 @@ download_data.sh
 
 ## Downsample the data to 33x 
 
+E100030471QC960 mean coverage is 44
+
 ```
 downsample_wgs_data.sh 
 ```
