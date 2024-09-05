@@ -4,8 +4,8 @@ DOCKER_IMAGE="nvcr.io/nvidia/clara/clara-parabricks:4.1.0-1"
 FASTQ_1="$1"
 FASTQ_2="$2"
 OUT_BAM="$(basename -s .fq.gz $FASTQ_1).bam"
-OUT_VCF="$(basename -s .fq.gz $FASTQ_1).vcf"
-LOG_FILE="$(basename -s .fq.gz $FASTQ_1).log"
+OUT_VCF="$(basename -s .fq.gz $FASTQ_1).haplotype.vcf"
+LOG_FILE="$(basename -s .fq.gz $FASTQ_1).fq2bam.germline.log"
 
 mkdir -p outdir
 
