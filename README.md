@@ -17,7 +17,7 @@ download_data.sh
 
 ## Downsample the data to 33x 
 
-E100030471QC960 mean coverage is 44
+Mean coverage is 44 for both samples
 
 ```
 downsample_wgs_data.sh 
