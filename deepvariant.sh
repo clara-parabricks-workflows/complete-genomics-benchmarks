@@ -6,7 +6,7 @@ OUT_VCF="$(basename -s .bam $OUT_BAM).vcf"
 LOG_FILE="$(basename -s .bam $OUT_BAM).log"
 
 # L4 
-docker run -d --gpus all --rm \
+docker run --gpus all --rm \
     --env TCMALLOC_MAX_TOTAL_THREAD_CACHE_BYTES=268435456 \
     -v `pwd`/data:/data \
     -v `pwd`/outdir:/outdir \
@@ -21,9 +21,9 @@ docker run -d --gpus all --rm \
 
 # H100
 # For A100 and H100 we can optimize clock frequency
-sudo ./../viking-cpu-freq.sh
+sudo viking-cpu-freq.sh
 
-docker run -d --gpus all --rm \
+docker run --gpus all --rm \
     --env TCMALLOC_MAX_TOTAL_THREAD_CACHE_BYTES=268435456 \
     -v `pwd`/data:/data \
     -v `pwd`/outdir:/outdir \
