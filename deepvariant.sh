@@ -6,12 +6,14 @@ OUT_VCF="$(basename -s .bam $OUT_BAM).deepvariant.vcf"
 LOG_FILE="$(basename -s .bam $OUT_BAM).deepvariant.log"
 
 mkdir -p outdir
+mkdir -p logs
 
 # L4 
 docker run --gpus all --rm \
     --env TCMALLOC_MAX_TOTAL_THREAD_CACHE_BYTES=268435456 \
     -v `pwd`/data:/data \
     -v `pwd`/outdir:/outdir \
+    -v `pwd`/logs:/logs \
     ${DOCKER_IMAGE} pbrun germline \
     --ref /data/ref/ucsc.hg19.fasta \
     --in-bam /outdir/${IN_BAM} \
@@ -19,7 +21,7 @@ docker run --gpus all --rm \
     --run-partition \
     --num-streams-per-gpu 4 \
     --low-memory \
-    --logfile /outdir/${LOG_FILE} 
+    --logfile /logs/${LOG_FILE} 
 
 # H100
 # For A100 and H100 we can optimize clock frequency
@@ -29,6 +31,7 @@ docker run --gpus all --rm \
 #    --env TCMALLOC_MAX_TOTAL_THREAD_CACHE_BYTES=268435456 \
 #    -v `pwd`/data:/data \
 #    -v `pwd`/outdir:/outdir \
+#    -v `pwd`/logs:/logs \
 #    ${DOCKER_IMAGE} pbrun germline \
 #    --ref /data/ref/ucsc.hg19.fasta \
 #    --in-bam /outdir/${IN_BAM} \
@@ -36,7 +39,7 @@ docker run --gpus all --rm \
 #    --run-partition \
 #    --num-streams-per-gpu 4 \
 #    --low-memory \
-#    --logfile /outdir/${LOG_FILE} \
+#    --logfile /logs/${LOG_FILE} 
 #    --num-cpu-threads-per-stream 16 \
 #    --run-partition \
 #    --read-from-tmp-dir \
