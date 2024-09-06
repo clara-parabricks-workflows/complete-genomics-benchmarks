@@ -1,6 +1,8 @@
 #!/bin/bash 
 
-mkdir -p outdir
+# Note: Call this function from the root dir as ./data_procs/download_data.sh
+# so the data folder gets made in the root directory. 
+
 mkdir -p data
 cd data
 
