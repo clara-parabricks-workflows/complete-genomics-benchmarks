@@ -27,20 +27,20 @@ ${BENCHMARK_PATH}/germline.sh ${FASTQ_1} ${FASTQ_2}
 
 # ============================================================
 
-# Sample G400 - WES
-FASTQ_1="G400_PE150_NA12878_WES_MGIEasy_V5_Universal_Library_2.1.fq.gz"
-FASTQ_2="G400_PE150_NA12878_WES_MGIEasy_V5_Universal_Library_2.2.fq.gz"
-BAM="G400_PE150_NA12878_WES_MGIEasy_V5_Universal_Library_2.1.bam"
+# Sample G400 - WGS
+FASTQ_1="G400_PE150_NA12878_WGS_V300046476_L01_1_33x.fq.gz"
+FASTQ_2="G400_PE150_NA12878_WGS_V300046476_L01_2_33x.fq.gz"
+BAM="G400_PE150_NA12878_WGS_V300046476_L01_1_33x.bam"
 
 ${BENCHMARK_PATH}/germline.sh ${FASTQ_1} ${FASTQ_2} 
 # ${BENCHMARK_PATH}/deepvariant.sh ${BAM} 
 
 # ============================================================
 
-# Sample G400 - WGS
-FASTQ_1="G400_PE150_NA12878_WGS_V300046476_L01_1_33x.fq.gz"
-FASTQ_2="G400_PE150_NA12878_WGS_V300046476_L01_2_33x.fq.gz"
-BAM="G400_PE150_NA12878_WGS_V300046476_L01_1_33x.bam"
+# Sample G400 - WES
+FASTQ_1="G400_PE150_NA12878_WES_MGIEasy_V5_Universal_Library_2.1.fq.gz"
+FASTQ_2="G400_PE150_NA12878_WES_MGIEasy_V5_Universal_Library_2.2.fq.gz"
+BAM="G400_PE150_NA12878_WES_MGIEasy_V5_Universal_Library_2.1.bam"
 
 ${BENCHMARK_PATH}/germline.sh ${FASTQ_1} ${FASTQ_2} 
 # ${BENCHMARK_PATH}/deepvariant.sh ${BAM} "--use-wes-model"
