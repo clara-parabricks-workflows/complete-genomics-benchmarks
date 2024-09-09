@@ -3,7 +3,7 @@
 mkdir -p outdir
 mkdir -p logs 
 
-BENCHMARK_PATH="./benchmarks/L4"
+BENCHMARK_PATH="./benchmarks_43/L4"
 
 # ============================================================
 
