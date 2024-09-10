@@ -12,7 +12,7 @@ docker run --rm --gpus all \
     -v `pwd`/logs:/logs \
     ${PB_CONTAINER} \
     pbrun fq2bamfast \
-    --ref /data/ref/Homo_sapiens_assembly38.fasta \
+    --ref /data/ref/ucsc.hg19.fasta \
     --in-fq /data/${FASTQ_1} /data/${FASTQ_2} \
     --out-bam /outdir/${OUT_BAM} \
     --low-memory \

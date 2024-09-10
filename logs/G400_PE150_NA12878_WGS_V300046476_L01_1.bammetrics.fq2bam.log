@@ -1,0 +1,79 @@
+[PB Info 2024-Sep-10 14:48:27] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 14:48:27] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2024-Sep-10 14:48:27] ||                              Version 4.3.1-1                             ||
+[PB Info 2024-Sep-10 14:48:27] ||                      GPU-PBBWA mem, Sorting Phase-I                      ||
+[PB Info 2024-Sep-10 14:48:27] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 14:48:27] Mode = pair-ended-gpu
+[PB Info 2024-Sep-10 14:48:27] Running with 4 GPU(s), using 1 stream(s) per device with 16 worker threads per GPU
+[PB Info 2024-Sep-10 14:48:37] #  0  0  0  0  0   0 pool:  0 0 bases/GPU/minute: 0.0 
+[PB Info 2024-Sep-10 14:48:47] #  0  0  0  0  0   0 pool:  0 0 bases/GPU/minute: 0.0 
+[PB Info 2024-Sep-10 14:48:57] #  0  0  0  0  0   0 pool:  0 0 bases/GPU/minute: 0.0 
+[PB Info 2024-Sep-10 14:49:07] #  0  0  0  0  0   0 pool:  0 0 bases/GPU/minute: 0.0 
+[PB Info 2024-Sep-10 14:49:17] # 91  0  2  0  0   0 pool:  0 655949328 bases/GPU/minute: 983923992.0 
+[PB Info 2024-Sep-10 14:49:27] # 100  0  2  0  0   0 pool:  2 2007208166 bases/GPU/minute: 2026888257.0 
+[PB Info 2024-Sep-10 14:49:37] # 100  0  2  0  0   0 pool:  4 3384721840 bases/GPU/minute: 2066270511.0 
+[PB Info 2024-Sep-10 14:49:47] # 100  0  2  0  0   0 pool:  2 4762235614 bases/GPU/minute: 2066270661.0 
+[PB Info 2024-Sep-10 14:49:57] # 100  0  2  0  0   0 pool:  1 6133199847 bases/GPU/minute: 2056446349.5 
+[PB Info 2024-Sep-10 14:50:07] # 84  0  2  0  0   0 pool: 19 7497591437 bases/GPU/minute: 2046587385.0 
+[PB Info 2024-Sep-10 14:50:17] # 44  0  2  0  0   0 pool: 60 8868535534 bases/GPU/minute: 2056416145.5 
+[PB Info 2024-Sep-10 14:50:27] #  0  0  0  0  0   0 pool: 99 10239490020 bases/GPU/minute: 2056431729.0 
+[PB Info 2024-Sep-10 14:50:37] #  0  0  0  0  0   0 pool: 97 11334927778 bases/GPU/minute: 1643156637.0 
+[PB Info 2024-Sep-10 14:50:47] #  0  0  0  0  0   0 pool: 98 12482851374 bases/GPU/minute: 1721885394.0 
+[PB Info 2024-Sep-10 14:50:57] #  0  0  0  0  0   0 pool: 98 13656996446 bases/GPU/minute: 1761217608.0 
+[PB Info 2024-Sep-10 14:51:07] #  0  0  0  0  0   0 pool: 97 14837713611 bases/GPU/minute: 1771075747.5 
+[PB Info 2024-Sep-10 14:51:17] #  0  0  0  0  0   0 pool: 98 15933144244 bases/GPU/minute: 1643145949.5 
+[PB Info 2024-Sep-10 14:51:27] #  0  0  0  0  0   0 pool: 99 17028574570 bases/GPU/minute: 1643145489.0 
+[PB Info 2024-Sep-10 14:51:37] #  0  0  0  0  0   0 pool: 97 18038737130 bases/GPU/minute: 1515243840.0 
+[PB Info 2024-Sep-10 14:51:47] #  0  0  0  0  0   0 pool: 98 19173529070 bases/GPU/minute: 1702187910.0 
+[PB Info 2024-Sep-10 14:51:57] # 25  0  2  0  0   0 pool: 71 20393606167 bases/GPU/minute: 1830115645.5 
+[PB Info 2024-Sep-10 14:52:07] #  5  0  2  0  0   0 pool: 89 21744864831 bases/GPU/minute: 2026887996.0 
+[PB Info 2024-Sep-10 14:52:17] #  0  0  0  0  0   0 pool: 99 22925592095 bases/GPU/minute: 1771090896.0 
+[PB Info 2024-Sep-10 14:52:27] #  0  0  0  0  0   0 pool: 97 24053846735 bases/GPU/minute: 1692381960.0 
+[PB Info 2024-Sep-10 14:52:37] #  0  0  0  0  0   0 pool: 97 25201770877 bases/GPU/minute: 1721886213.0 
+[PB Info 2024-Sep-10 14:52:47] #  0  0  0  0  0   0 pool: 98 26369375701 bases/GPU/minute: 1751407236.0 
+[PB Info 2024-Sep-10 14:52:57] #  0  0  0  0  0   0 pool: 98 27543541598 bases/GPU/minute: 1761248845.5 
+[PB Info 2024-Sep-10 14:53:07] #  0  0  0  0  0   0 pool: 98 28724247641 bases/GPU/minute: 1771059064.5 
+[PB Info 2024-Sep-10 14:53:17] #  0  0  0  0  0   0 pool: 98 29885259912 bases/GPU/minute: 1741518406.5 
+[PB Info 2024-Sep-10 14:53:27] #  0  0  0  0  0   0 pool: 97 31052829303 bases/GPU/minute: 1751354086.5 
+[PB Info 2024-Sep-10 14:53:37] #  0  0  0  0  0   0 pool: 97 32220411357 bases/GPU/minute: 1751373081.0 
+[PB Info 2024-Sep-10 14:53:47] #  0  0  0  0  0   0 pool: 97 33381435629 bases/GPU/minute: 1741536408.0 
+[PB Info 2024-Sep-10 14:53:57] #  0  0  0  0  0   0 pool: 97 34581830572 bases/GPU/minute: 1800592414.5 
+[PB Info 2024-Sep-10 14:54:07] #  0  0  0  0  0   0 pool: 97 35703527439 bases/GPU/minute: 1682545300.5 
+[PB Info 2024-Sep-10 14:54:17] #  0  0  0  0  0   0 pool: 96 36897381774 bases/GPU/minute: 1790781502.5 
+[PB Info 2024-Sep-10 14:54:27] #  0  0  0  0  0   0 pool: 96 38064990081 bases/GPU/minute: 1751412460.5 
+[PB Info 2024-Sep-10 14:54:37] #  0  0  0  0  0   0 pool: 97 39239140689 bases/GPU/minute: 1761225912.0 
+[PB Info 2024-Sep-10 14:54:47] #  0  0  0  0  0   0 pool: 96 40419858061 bases/GPU/minute: 1771076058.0 
+[PB Info 2024-Sep-10 14:54:57] #  0  0  0  0  0   0 pool: 96 41574338516 bases/GPU/minute: 1731720682.5 
+[PB Info 2024-Sep-10 14:55:07] #  0  0  0  0  0   0 pool: 95 42741940958 bases/GPU/minute: 1751403663.0 
+[PB Info 2024-Sep-10 14:55:17] #  0  0  0  0  0   0 pool: 97 43824251387 bases/GPU/minute: 1623465643.5 
+[PB Info 2024-Sep-10 14:55:27] #  0  0  0  0  0   0 pool: 96 44919676042 bases/GPU/minute: 1643136982.5 
+[PB Info 2024-Sep-10 14:55:37] #  0  0  0  0  0   0 pool: 97 46100363060 bases/GPU/minute: 1771030527.0 
+[PB Info 2024-Sep-10 14:55:47] #  0  0  0  0  0   0 pool: 97 47228586591 bases/GPU/minute: 1692335296.5 
+[PB Info 2024-Sep-10 14:55:57] #  0  0  0  0  0   0 pool: 96 48363383157 bases/GPU/minute: 1702194849.0 
+[PB Info 2024-Sep-10 14:56:07] #  0  0  0  0  0   0 pool: 97 49445706278 bases/GPU/minute: 1623484681.5 
+[PB Info 2024-Sep-10 14:56:17] #  0  0  0  0  0   0 pool: 97 50573940640 bases/GPU/minute: 1692351543.0 
+[PB Info 2024-Sep-10 14:56:27] #  0  0  0  0  0   0 pool: 97 51682487712 bases/GPU/minute: 1662820608.0 
+[PB Info 2024-Sep-10 14:56:37] #  0  0  0  0  0   0 pool: 97 52823864493 bases/GPU/minute: 1712065171.5 
+[PB Info 2024-Sep-10 14:56:47] #  0  0  0  0  0   0 pool: 96 53932420664 bases/GPU/minute: 1662834256.5 
+[PB Info 2024-Sep-10 14:56:57] #  0  0  0  0  0  66 pool: 97 54594936394 bases/GPU/minute: 993773595.0 
+[PB Info 2024-Sep-10 14:57:07] #  2 100  0  9  0  102 pool:  0 54706446911 bases/GPU/minute: 167265775.5 
+[PB Info 2024-Sep-10 14:57:17] # 100 100  4  5  0  102 pool:  0 54785159008 bases/GPU/minute: 118068145.5 
+[PB Info 2024-Sep-10 14:57:27] # 100 100  4  5  0  100 pool:  0 55034421216 bases/GPU/minute: 373893312.0 
+[PB Info 2024-Sep-10 14:57:37] # 100 100  4  5  0  101 pool:  0 55368960363 bases/GPU/minute: 501808720.5 
+[PB Info 2024-Sep-10 14:57:47] # 100 100  4  1  0  103 pool:  4 55801893296 bases/GPU/minute: 649399399.5 
+[PB Info 2024-Sep-10 14:57:57] # 100 100  4  5  0  101 pool:  0 56339783623 bases/GPU/minute: 806835490.5 
+[PB Info 2024-Sep-10 14:58:07] # 100 100  0  5  0  103 pool:  4 56930137416 bases/GPU/minute: 885530689.5 
+[PB Info 2024-Sep-10 14:58:17] # 100 100  4  1  0  103 pool:  4 57481132514 bases/GPU/minute: 826492647.0 
+[PB Info 2024-Sep-10 14:58:27] # 100 100  4  5  0  100 pool:  0 58051816152 bases/GPU/minute: 856025457.0 
+[PB Info 2024-Sep-10 14:58:37] # 100 100  4  1  0  103 pool:  4 58609373606 bases/GPU/minute: 836336181.0 
+[PB Info 2024-Sep-10 14:58:47] # 100 100  4  1  0  102 pool:  4 59193165850 bases/GPU/minute: 875688366.0 
+[PB Info 2024-Sep-10 14:58:57] # 100 100  4  5  0  101 pool:  0 59776949479 bases/GPU/minute: 875675443.5 
+[PB Info 2024-Sep-10 14:59:07] # 100 100  4  5  0  101 pool:  0 60380412871 bases/GPU/minute: 905195088.0 
+[PB Info 2024-Sep-10 14:59:17] # 100 100  4  5  0  102 pool:  0 61003561647 bases/GPU/minute: 934723164.0 
+[PB Info 2024-Sep-10 14:59:27] # 100 100  4  4  0  102 pool:  1 61600465211 bases/GPU/minute: 895355346.0 
+[PB Info 2024-Sep-10 14:59:37] # 100 100  4  5  0  102 pool:  0 62203925408 bases/GPU/minute: 905190295.5 
+[PB Info 2024-Sep-10 14:59:47] # 100 100  4  1  0  103 pool:  4 62774590460 bases/GPU/minute: 855997578.0 
+[PB Info 2024-Sep-10 14:59:57] # 100 100  4  5  0  103 pool:  0 63351825924 bases/GPU/minute: 865853196.0 
+[PB Info 2024-Sep-10 15:00:07] # 100 100  4  5  0  102 pool:  0 63909382266 bases/GPU/minute: 836334513.0 
+[PB Info 2024-Sep-10 15:00:17] # 100 100  4  5  0  102 pool:  0 64486617886 bases/GPU/minute: 865853430.0 
+[PB Info 2024-Sep-10 15:00:27] # 100 100  4  5  0  101 pool:  0 65070409656 bases/GPU/minute: 875687655.0 
