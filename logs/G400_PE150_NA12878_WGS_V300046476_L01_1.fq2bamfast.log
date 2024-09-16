@@ -1,0 +1,334 @@
+[PB Info 2024-Sep-10 20:11:22] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 20:11:22] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2024-Sep-10 20:11:22] ||                              Version 4.3.1-1                             ||
+[PB Info 2024-Sep-10 20:11:22] ||                      GPU-PBBWA mem, Sorting Phase-I                      ||
+[PB Info 2024-Sep-10 20:11:22] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 20:11:22] Mode = pair-ended-gpu
+[PB Info 2024-Sep-10 20:11:22] Running with 4 GPU(s), using 1 stream(s) per device with 16 worker threads per GPU
+[PB Info 2024-Sep-10 20:11:32] #  0  0  0  0  0   0 pool:  0 0 bases/GPU/minute: 0.0 
+[PB Info 2024-Sep-10 20:11:42] #  0  0  0  0  0   0 pool:  0 0 bases/GPU/minute: 0.0 
+[PB Info 2024-Sep-10 20:11:52] #  0  0  0  0  0   0 pool:  0 0 bases/GPU/minute: 0.0 
+[PB Info 2024-Sep-10 20:12:02] #  0  0  0  0  0   0 pool:  0 0 bases/GPU/minute: 0.0 
+[PB Info 2024-Sep-10 20:12:12] # 95  0  2  0  0   0 pool:  0 610031535 bases/GPU/minute: 915047302.5 
+[PB Info 2024-Sep-10 20:12:22] # 100  0  3  0  0   0 pool:  3 1967849784 bases/GPU/minute: 2036727373.5 
+[PB Info 2024-Sep-10 20:12:32] # 100  0  3  0  0   0 pool:  3 3325685239 bases/GPU/minute: 2036753182.5 
+[PB Info 2024-Sep-10 20:12:42] # 100  0  2  0  0   0 pool:  2 4696642752 bases/GPU/minute: 2056436269.5 
+[PB Info 2024-Sep-10 20:12:52] # 100  0  3  0  0   0 pool:  1 6080722183 bases/GPU/minute: 2076119146.5 
+[PB Info 2024-Sep-10 20:13:02] # 90  0  3  0  0   0 pool: 13 7445113677 bases/GPU/minute: 2046587241.0 
+[PB Info 2024-Sep-10 20:13:12] # 40  0  3  0  0   0 pool: 63 8816058077 bases/GPU/minute: 2056416600.0 
+[PB Info 2024-Sep-10 20:13:22] #  0  0  0  0  0   0 pool: 100 10167334593 bases/GPU/minute: 2026914774.0 
+[PB Info 2024-Sep-10 20:13:32] #  0  0  0  0  0   0 pool: 99 11282452788 bases/GPU/minute: 1672677292.5 
+[PB Info 2024-Sep-10 20:13:42] #  0  0  0  0  0   0 pool: 99 12430377481 bases/GPU/minute: 1721887039.5 
+[PB Info 2024-Sep-10 20:13:52] #  0  0  0  0  0   0 pool: 99 13591402912 bases/GPU/minute: 1741538146.5 
+[PB Info 2024-Sep-10 20:14:02] #  0  0  0  0  0   0 pool: 98 14772117784 bases/GPU/minute: 1771072308.0 
+[PB Info 2024-Sep-10 20:14:12] #  0  0  0  0  0   0 pool: 97 15906907045 bases/GPU/minute: 1702183891.5 
+[PB Info 2024-Sep-10 20:14:22] #  0  0  0  0  0   0 pool: 98 17067930428 bases/GPU/minute: 1741535074.5 
+[PB Info 2024-Sep-10 20:14:32] #  0  0  0  0  0   0 pool: 98 18248644189 bases/GPU/minute: 1771070641.5 
+[PB Info 2024-Sep-10 20:14:42] #  0  0  0  0  0   0 pool: 97 19429351034 bases/GPU/minute: 1771060267.5 
+[PB Info 2024-Sep-10 20:14:52] #  3  0  1  0  0   0 pool: 92 20629750433 bases/GPU/minute: 1800599098.5 
+[PB Info 2024-Sep-10 20:15:02] # 19  0  2  0  0   0 pool: 75 21967889725 bases/GPU/minute: 2007208938.0 
+[PB Info 2024-Sep-10 20:15:12] #  0  0  0  0  0   0 pool: 97 23247014941 bases/GPU/minute: 1918687824.0 
+[PB Info 2024-Sep-10 20:15:22] #  0  0  0  0  0   0 pool: 98 24394946198 bases/GPU/minute: 1721896885.5 
+[PB Info 2024-Sep-10 20:15:32] #  0  0  0  0  0   0 pool: 98 25562551795 bases/GPU/minute: 1751408395.5 
+[PB Info 2024-Sep-10 20:15:42] #  0  0  0  0  0   0 pool: 97 26697351272 bases/GPU/minute: 1702199215.5 
+[PB Info 2024-Sep-10 20:15:52] #  0  0  0  0  0   0 pool: 96 27773124756 bases/GPU/minute: 1613660226.0 
+[PB Info 2024-Sep-10 20:16:02] #  0  0  0  0  0   0 pool: 97 28848876780 bases/GPU/minute: 1613628036.0 
+[PB Info 2024-Sep-10 20:16:12] #  0  0  0  0  0   0 pool: 98 29990208946 bases/GPU/minute: 1711998249.0 
+[PB Info 2024-Sep-10 20:16:22] #  0  0  0  0  0   0 pool: 95 31039710255 bases/GPU/minute: 1574251963.5 
+[PB Info 2024-Sep-10 20:16:32] #  0  0  0  0  0   0 pool: 95 32194173466 bases/GPU/minute: 1731694816.5 
+[PB Info 2024-Sep-10 20:16:42] #  0  0  0  0  0   0 pool: 95 33315841757 bases/GPU/minute: 1682502436.5 
+[PB Info 2024-Sep-10 20:16:52] #  0  0  0  0  0   0 pool: 95 34503114930 bases/GPU/minute: 1780909759.5 
+[PB Info 2024-Sep-10 20:17:02] #  0  0  0  0  0   0 pool: 95 35631369192 bases/GPU/minute: 1692381393.0 
+[PB Info 2024-Sep-10 20:17:12] #  0  0  0  0  0   0 pool: 95 36812107540 bases/GPU/minute: 1771107522.0 
+[PB Info 2024-Sep-10 20:17:22] #  0  0  0  0  0   0 pool: 95 37992831543 bases/GPU/minute: 1771086004.5 
+[PB Info 2024-Sep-10 20:17:32] #  0  0  0  0  0   0 pool: 95 39166986098 bases/GPU/minute: 1761231832.5 
+[PB Info 2024-Sep-10 20:17:42] #  0  0  0  0  0   0 pool: 96 40354263080 bases/GPU/minute: 1780915473.0 
+[PB Info 2024-Sep-10 20:17:52] #  0  0  0  0  0   0 pool: 96 41475948147 bases/GPU/minute: 1682527600.5 
+[PB Info 2024-Sep-10 20:18:02] #  0  0  0  0  0   0 pool: 96 42604193398 bases/GPU/minute: 1692367876.5 
+[PB Info 2024-Sep-10 20:18:12] #  0  0  0  0  0   0 pool: 95 43745540838 bases/GPU/minute: 1712021160.0 
+[PB Info 2024-Sep-10 20:18:22] #  0  0  0  0  0   0 pool: 96 44899998422 bases/GPU/minute: 1731686376.0 
+[PB Info 2024-Sep-10 20:18:32] #  0  0  0  0  0   0 pool: 96 46021651492 bases/GPU/minute: 1682479605.0 
+[PB Info 2024-Sep-10 20:18:42] #  0  0  0  0  0   0 pool: 95 47162990800 bases/GPU/minute: 1712008962.0 
+[PB Info 2024-Sep-10 20:18:52] #  0  0  0  0  0   0 pool: 96 48238748493 bases/GPU/minute: 1613636539.5 
+[PB Info 2024-Sep-10 20:19:02] #  0  0  0  0  0   0 pool: 95 49393228721 bases/GPU/minute: 1731720342.0 
+[PB Info 2024-Sep-10 20:19:12] #  0  0  0  0  0   0 pool: 95 50567380366 bases/GPU/minute: 1761227467.5 
+[PB Info 2024-Sep-10 20:19:22] #  0  0  0  0  0   0 pool: 95 51748086561 bases/GPU/minute: 1771059292.5 
+[PB Info 2024-Sep-10 20:19:32] #  0  0  0  0  0   0 pool: 96 52922256256 bases/GPU/minute: 1761254542.5 
+[PB Info 2024-Sep-10 20:19:42] #  0  0  0  0  0   0 pool: 97 54050488509 bases/GPU/minute: 1692348379.5 
+[PB Info 2024-Sep-10 20:19:52] #  0  0  0  0  0  91 pool: 95 54463743561 bases/GPU/minute: 619882578.0 
+[PB Info 2024-Sep-10 20:20:02] # 37 100  0  8  0  100 pool:  0 54575258255 bases/GPU/minute: 167272041.0 
+[PB Info 2024-Sep-10 20:20:12] # 100 100  4  4  0  101 pool:  0 54673648795 bases/GPU/minute: 147585810.0 
+[PB Info 2024-Sep-10 20:20:22] # 100 100  4  4  0  102 pool:  0 54929469632 bases/GPU/minute: 383731255.5 
+[PB Info 2024-Sep-10 20:20:32] # 100 100  4  4  0  103 pool:  0 55316482771 bases/GPU/minute: 580519708.5 
+[PB Info 2024-Sep-10 20:20:42] # 100 100  4  4  0  100 pool:  0 55755976967 bases/GPU/minute: 659241294.0 
+[PB Info 2024-Sep-10 20:20:52] # 100 100  4  4  0  101 pool:  0 56274185292 bases/GPU/minute: 777312487.5 
+[PB Info 2024-Sep-10 20:21:02] # 100 100  4  4  0  100 pool:  0 56857981117 bases/GPU/minute: 875693737.5 
+[PB Info 2024-Sep-10 20:21:12] # 100 100  4  4  0  102 pool:  0 57448337836 bases/GPU/minute: 885535078.5 
+[PB Info 2024-Sep-10 20:21:22] # 100 100  4  4  0  100 pool:  0 58012459387 bases/GPU/minute: 846182326.5 
+[PB Info 2024-Sep-10 20:21:32] # 100 100  4  4  0  101 pool:  0 58583135210 bases/GPU/minute: 856013734.5 
+[PB Info 2024-Sep-10 20:21:42] # 100 100  4  4  0  102 pool:  0 59180044000 bases/GPU/minute: 895363185.0 
+[PB Info 2024-Sep-10 20:21:52] # 100 100  4  4  0  101 pool:  0 59790069368 bases/GPU/minute: 915038052.0 
+[PB Info 2024-Sep-10 20:22:02] # 100 100  4  0  0  103 pool:  4 60380414659 bases/GPU/minute: 885517936.5 
+[PB Info 2024-Sep-10 20:22:12] # 98 100  4  4  0  103 pool:  2 60957643297 bases/GPU/minute: 865842957.0 
+[PB Info 2024-Sep-10 20:22:22] # 100 100  4  4  0  102 pool:  0 61541430418 bases/GPU/minute: 875680681.5 
+[PB Info 2024-Sep-10 20:22:32] # 100 100  4  4  0  101 pool:  0 62151450731 bases/GPU/minute: 915030469.5 
+[PB Info 2024-Sep-10 20:22:42] # 100 100  0  4  0  103 pool:  4 62741793244 bases/GPU/minute: 885513769.5 
+[PB Info 2024-Sep-10 20:22:52] # 100 100  4  4  0  102 pool:  0 63325588197 bases/GPU/minute: 875692429.5 
+[PB Info 2024-Sep-10 20:23:02] # 100 100  4  4  0  102 pool:  0 63902823042 bases/GPU/minute: 865852267.5 
+[PB Info 2024-Sep-10 20:23:12] # 100 100  4  4  0  102 pool:  0 64506296657 bases/GPU/minute: 905210422.5 
+[PB Info 2024-Sep-10 20:23:22] # 100 100  0  4  0  103 pool:  4 65103207327 bases/GPU/minute: 895366005.0 
+[PB Info 2024-Sep-10 20:23:32] # 100 100  4  4  0  102 pool:  0 65686997542 bases/GPU/minute: 875685322.5 
+[PB Info 2024-Sep-10 20:23:42] # 100 100  4  4  0  102 pool:  0 66290470688 bases/GPU/minute: 905209719.0 
+[PB Info 2024-Sep-10 20:23:52] # 100 100  4  4  0  101 pool:  0 66874265107 bases/GPU/minute: 875691628.5 
+[PB Info 2024-Sep-10 20:24:02] # 100 100  4  4  0  102 pool:  0 67444946739 bases/GPU/minute: 856022448.0 
+[PB Info 2024-Sep-10 20:24:12] # 100 100  4  4  0  100 pool:  0 68035309621 bases/GPU/minute: 885544323.0 
+[PB Info 2024-Sep-10 20:24:22] # 100 100  4  4  0  103 pool:  0 68619111127 bases/GPU/minute: 875702259.0 
+[PB Info 2024-Sep-10 20:24:32] # 100 100  4  4  0  102 pool:  0 69202909755 bases/GPU/minute: 875697942.0 
+[PB Info 2024-Sep-10 20:24:42] # 100 100  4  0  0  102 pool:  4 69806390152 bases/GPU/minute: 905220595.5 
+[PB Info 2024-Sep-10 20:24:52] # 100 100  4  4  0  101 pool:  0 70390189166 bases/GPU/minute: 875698521.0 
+[PB Info 2024-Sep-10 20:25:02] # 100 100  4  4  0  100 pool:  0 71000223289 bases/GPU/minute: 915051184.5 
+[PB Info 2024-Sep-10 20:25:12] # 100 100  4  0  0  103 pool:  4 71584021932 bases/GPU/minute: 875697964.5 
+[PB Info 2024-Sep-10 20:25:22] # 100 100  0  4  0  103 pool:  4 72187491134 bases/GPU/minute: 905203803.0 
+[PB Info 2024-Sep-10 20:25:32] # 100 100  3  1  0  103 pool:  4 72764731869 bases/GPU/minute: 865861102.5 
+[PB Info 2024-Sep-10 20:25:42] # 100 100  4  4  0  103 pool:  0 73341970389 bases/GPU/minute: 865857780.0 
+[PB Info 2024-Sep-10 20:25:52] # 100 100  4  4  0  102 pool:  0 73925763114 bases/GPU/minute: 875689087.5 
+[PB Info 2024-Sep-10 20:26:02] # 100 100  4  4  0  102 pool:  0 74502997067 bases/GPU/minute: 865850929.5 
+[PB Info 2024-Sep-10 20:26:12] # 100 100  4  4  0  101 pool:  0 75086796603 bases/GPU/minute: 875699304.0 
+[PB Info 2024-Sep-10 20:26:22] # 100 100  4  4  0  102 pool:  0 75683703336 bases/GPU/minute: 895360099.5 
+[PB Info 2024-Sep-10 20:26:32] # 100 100  4  4  0  102 pool:  0 76287168521 bases/GPU/minute: 905197777.5 
+[PB Info 2024-Sep-10 20:26:42] # 100 100  4  0  0  103 pool:  4 76884066885 bases/GPU/minute: 895347546.0 
+[PB Info 2024-Sep-10 20:26:52] # 100 100  4  4  0  103 pool:  0 77461291293 bases/GPU/minute: 865836612.0 
+[PB Info 2024-Sep-10 20:27:02] # 100 100  4  4  0  101 pool:  0 78051630296 bases/GPU/minute: 885508504.5 
+[PB Info 2024-Sep-10 20:27:12] # 100 100  4  0  0  103 pool:  4 78641974828 bases/GPU/minute: 885516798.0 
+[PB Info 2024-Sep-10 20:27:22] # 100 100  4  0  0  102 pool:  4 79225754167 bases/GPU/minute: 875669008.5 
+[PB Info 2024-Sep-10 20:27:32] # 100 100  0  4  0  102 pool:  4 79802985699 bases/GPU/minute: 865847298.0 
+[PB Info 2024-Sep-10 20:27:42] # 100 100  4  4  0  101 pool:  0 80386778647 bases/GPU/minute: 875689422.0 
+[PB Info 2024-Sep-10 20:27:52] # 100 100  4  4  0  102 pool:  0 80957454831 bases/GPU/minute: 856014276.0 
+[PB Info 2024-Sep-10 20:28:02] # 100 100  4  4  0  101 pool:  0 81547804424 bases/GPU/minute: 885524389.5 
+[PB Info 2024-Sep-10 20:28:12] # 100 100  4  4  0  101 pool:  0 82125043475 bases/GPU/minute: 865858576.5 
+[PB Info 2024-Sep-10 20:28:22] # 98 100  4  4  0  103 pool:  2 82715394233 bases/GPU/minute: 885526137.0 
+[PB Info 2024-Sep-10 20:28:32] # 100 100  4  4  0  100 pool:  0 83286077808 bases/GPU/minute: 856025362.5 
+[PB Info 2024-Sep-10 20:28:42] # 100 100  4  4  0  101 pool:  0 83882990397 bases/GPU/minute: 895368883.5 
+[PB Info 2024-Sep-10 20:28:52] # 100 100  4  4  0  101 pool:  0 84460219180 bases/GPU/minute: 865843174.5 
+[PB Info 2024-Sep-10 20:29:02] # 100 100  4  4  0  102 pool:  0 85030897020 bases/GPU/minute: 856016760.0 
+[PB Info 2024-Sep-10 20:29:12] # 100 100  4  4  0  103 pool:  0 85627823746 bases/GPU/minute: 895390089.0 
+[PB Info 2024-Sep-10 20:29:22] # 100 96  4  4  0  103 pool:  4 86237862193 bases/GPU/minute: 915057670.5 
+[PB Info 2024-Sep-10 20:29:32] # 100 100  4  4  0  101 pool:  0 86801976012 bases/GPU/minute: 846170728.5 
+[PB Info 2024-Sep-10 20:29:42] # 100 100  4  4  0  100 pool:  0 87385773276 bases/GPU/minute: 875695896.0 
+[PB Info 2024-Sep-10 20:29:52] # 100 100  4  0  0  103 pool:  4 87995801956 bases/GPU/minute: 915043020.0 
+[PB Info 2024-Sep-10 20:30:02] # 100 100  4  4  0  103 pool:  0 88599280226 bases/GPU/minute: 905217405.0 
+[PB Info 2024-Sep-10 20:30:12] # 100 100  4  4  0  101 pool:  0 89163411233 bases/GPU/minute: 846196510.5 
+[PB Info 2024-Sep-10 20:30:22] # 100 100  4  4  0  101 pool:  0 89740655297 bases/GPU/minute: 865866096.0 
+[PB Info 2024-Sep-10 20:30:32] # 100 100  4  4  0  103 pool:  0 90331004871 bases/GPU/minute: 885524361.0 
+[PB Info 2024-Sep-10 20:30:42] # 100 100  4  4  0  101 pool:  0 90921345114 bases/GPU/minute: 885510364.5 
+[PB Info 2024-Sep-10 20:30:52] # 100 100  4  4  0  101 pool:  0 91498575040 bases/GPU/minute: 865844889.0 
+[PB Info 2024-Sep-10 20:31:02] # 100 100  4  4  0  100 pool:  0 92082349122 bases/GPU/minute: 875661123.0 
+[PB Info 2024-Sep-10 20:31:12] # 100 100  4  4  0  103 pool:  0 92666128506 bases/GPU/minute: 875669076.0 
+[PB Info 2024-Sep-10 20:31:22] # 100 100  4  4  0  100 pool:  0 93315503044 bases/GPU/minute: 974061807.0 
+[PB Info 2024-Sep-10 20:31:22] Time spent reading: 476.249198 seconds
+[PB Info 2024-Sep-10 20:31:32] #  0 66  0  4  0  102 pool: 100 94220677230 bases/GPU/minute: 1357761279.0 
+[PB Info 2024-Sep-10 20:31:37] GPU 0 exited
+[PB Info 2024-Sep-10 20:31:37] GPU 2 exited
+[PB Info 2024-Sep-10 20:31:37] GPU 3 exited
+[PB Info 2024-Sep-10 20:31:37] GPU 1 exited
+[PB Info 2024-Sep-10 20:31:38] A CPU has exited
+[PB Info 2024-Sep-10 20:31:38] A CPU has exited
+[PB Info 2024-Sep-10 20:31:38] A CPU has exited
+[PB Info 2024-Sep-10 20:31:38] A CPU has exited
+[PB Info 2024-Sep-10 20:31:42] #  0  0  0  0  0  54 pool: 100 95047149046 bases/GPU/minute: 1239707724.0 
+[PB Info 2024-Sep-10 20:31:52] #  0  0  0  0  0   0 pool: 100 95440476675 bases/GPU/minute: 589991443.5 
+[PB Info 2024-Sep-10 20:32:02] #  0  0  0  0  0   0 pool: 100 95440476675 bases/GPU/minute: 0.0 
+[PB Info 2024-Sep-10 20:32:12] Rate stats (based on sampling every 10 seconds):
+	min rate: 0.0 bases/GPU/minute
+	max rate: 2076119146.5 bases/GPU/minute
+	avg rate: 1154521895.3 bases/GPU/minute
+[PB Info 2024-Sep-10 20:32:12] Time spent monitoring (multiple of 10): 1250.023
+[PB Info 2024-Sep-10 20:32:12] bwalib run finished in 1242.585 seconds
+[PB Info 2024-Sep-10 20:32:12] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 20:32:12] ||        Program:                    GPU-PBBWA mem, Sorting Phase-I        ||
+[PB Info 2024-Sep-10 20:32:12] ||        Version:                                           4.3.1-1        ||
+[PB Info 2024-Sep-10 20:32:12] ||        Start Time:                       Tue Sep 10 20:11:22 2024        ||
+[PB Info 2024-Sep-10 20:32:12] ||        End Time:                         Tue Sep 10 20:32:12 2024        ||
+[PB Info 2024-Sep-10 20:32:12] ||        Total Time:                          20 minutes 50 seconds        ||
+[PB Info 2024-Sep-10 20:32:12] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 20:32:18] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 20:32:18] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2024-Sep-10 20:32:18] ||                              Version 4.3.1-1                             ||
+[PB Info 2024-Sep-10 20:32:18] ||                             Sorting Phase-II                             ||
+[PB Info 2024-Sep-10 20:32:18] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 20:32:18] progressMeter - Percentage
+[PB Info 2024-Sep-10 20:32:18] 0.0
+[PB Info 2024-Sep-10 20:32:23] 7.8
+[PB Info 2024-Sep-10 20:32:28] 16.2
+[PB Info 2024-Sep-10 20:32:33] 25.4
+[PB Info 2024-Sep-10 20:32:38] 34.9
+[PB Info 2024-Sep-10 20:32:43] 44.1
+[PB Info 2024-Sep-10 20:32:48] 53.3
+[PB Info 2024-Sep-10 20:32:53] 61.9
+[PB Info 2024-Sep-10 20:32:58] 70.5
+[PB Info 2024-Sep-10 20:33:03] 76.1
+[PB Info 2024-Sep-10 20:33:08] 79.2
+[PB Info 2024-Sep-10 20:33:13] 81.2
+[PB Info 2024-Sep-10 20:33:18] 83.4
+[PB Info 2024-Sep-10 20:33:23] 85.6
+[PB Info 2024-Sep-10 20:33:28] 88.4
+[PB Info 2024-Sep-10 20:33:33] 91.1
+[PB Info 2024-Sep-10 20:33:38] 93.9
+[PB Info 2024-Sep-10 20:33:43] 99.9
+[PB Info 2024-Sep-10 20:33:48] Sorting and Marking: 90.004 seconds
+[PB Info 2024-Sep-10 20:33:48] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 20:33:48] ||        Program:                                  Sorting Phase-II        ||
+[PB Info 2024-Sep-10 20:33:48] ||        Version:                                           4.3.1-1        ||
+[PB Info 2024-Sep-10 20:33:48] ||        Start Time:                       Tue Sep 10 20:32:18 2024        ||
+[PB Info 2024-Sep-10 20:33:48] ||        End Time:                         Tue Sep 10 20:33:48 2024        ||
+[PB Info 2024-Sep-10 20:33:48] ||        Total Time:                            1 minute 30 seconds        ||
+[PB Info 2024-Sep-10 20:33:48] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 20:33:49] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 20:33:49] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2024-Sep-10 20:33:49] ||                              Version 4.3.1-1                             ||
+[PB Info 2024-Sep-10 20:33:49] ||                         Marking Duplicates, BQSR                         ||
+[PB Info 2024-Sep-10 20:33:49] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 20:33:50] Using PBBinBamFile for BAM writing
+[PB Info 2024-Sep-10 20:33:53] progressMeter -	Percentage
+[PB Info 2024-Sep-10 20:34:03] 2.9
+[PB Info 2024-Sep-10 20:34:13] 3.2
+[PB Info 2024-Sep-10 20:34:23] 3.3
+[PB Info 2024-Sep-10 20:34:33] 3.3
+[PB Info 2024-Sep-10 20:34:43] 3.3
+[PB Info 2024-Sep-10 20:34:53] 3.3
+[PB Info 2024-Sep-10 20:35:03] 3.4
+[PB Info 2024-Sep-10 20:35:13] 3.4
+[PB Info 2024-Sep-10 20:35:23] 3.4
+[PB Info 2024-Sep-10 20:35:33] 3.4
+[PB Info 2024-Sep-10 20:35:43] 3.4
+[PB Info 2024-Sep-10 20:35:53] 3.4
+[PB Info 2024-Sep-10 20:36:03] 3.4
+[PB Info 2024-Sep-10 20:36:13] 3.4
+[PB Info 2024-Sep-10 20:36:23] 3.4
+[PB Info 2024-Sep-10 20:36:33] 3.4
+[PB Info 2024-Sep-10 20:36:43] 3.4
+[PB Info 2024-Sep-10 20:36:53] 3.4
+[PB Info 2024-Sep-10 20:37:03] 3.4
+[PB Info 2024-Sep-10 20:37:13] 3.4
+[PB Info 2024-Sep-10 20:37:23] 3.4
+[PB Info 2024-Sep-10 20:37:33] 3.4
+[PB Info 2024-Sep-10 20:37:43] 3.4
+[PB Info 2024-Sep-10 20:37:53] 3.4
+[PB Info 2024-Sep-10 20:38:03] 3.4
+[PB Info 2024-Sep-10 20:38:13] 3.4
+[PB Info 2024-Sep-10 20:38:23] 3.4
+[PB Info 2024-Sep-10 20:38:33] 3.4
+[PB Info 2024-Sep-10 20:38:43] 3.4
+[PB Info 2024-Sep-10 20:38:53] 3.4
+[PB Info 2024-Sep-10 20:39:03] 3.4
+[PB Info 2024-Sep-10 20:39:13] 3.5
+[PB Info 2024-Sep-10 20:39:23] 3.5
+[PB Info 2024-Sep-10 20:39:33] 3.5
+[PB Info 2024-Sep-10 20:39:43] 3.5
+[PB Info 2024-Sep-10 20:39:53] 3.5
+[PB Info 2024-Sep-10 20:40:03] 3.5
+[PB Info 2024-Sep-10 20:40:13] 3.5
+[PB Info 2024-Sep-10 20:40:23] 3.6
+[PB Info 2024-Sep-10 20:40:33] 3.7
+[PB Info 2024-Sep-10 20:40:43] 5.7
+[PB Info 2024-Sep-10 20:40:53] 5.9
+[PB Info 2024-Sep-10 20:41:03] 6.3
+[PB Info 2024-Sep-10 20:41:13] 7.0
+[PB Info 2024-Sep-10 20:41:23] 7.7
+[PB Info 2024-Sep-10 20:41:33] 8.4
+[PB Info 2024-Sep-10 20:41:43] 9.1
+[PB Info 2024-Sep-10 20:41:53] 9.8
+[PB Info 2024-Sep-10 20:42:03] 10.6
+[PB Info 2024-Sep-10 20:42:13] 11.0
+[PB Info 2024-Sep-10 20:42:23] 11.7
+[PB Info 2024-Sep-10 20:42:33] 12.4
+[PB Info 2024-Sep-10 20:42:43] 13.2
+[PB Info 2024-Sep-10 20:42:53] 13.9
+[PB Info 2024-Sep-10 20:43:03] 14.7
+[PB Info 2024-Sep-10 20:43:13] 15.3
+[PB Info 2024-Sep-10 20:43:23] 16.0
+[PB Info 2024-Sep-10 20:43:33] 16.7
+[PB Info 2024-Sep-10 20:43:43] 17.5
+[PB Info 2024-Sep-10 20:43:53] 18.2
+[PB Info 2024-Sep-10 20:44:03] 18.9
+[PB Info 2024-Sep-10 20:44:13] 19.5
+[PB Info 2024-Sep-10 20:44:23] 20.2
+[PB Info 2024-Sep-10 20:44:33] 20.6
+[PB Info 2024-Sep-10 20:44:43] 21.4
+[PB Info 2024-Sep-10 20:44:53] 22.0
+[PB Info 2024-Sep-10 20:45:03] 22.8
+[PB Info 2024-Sep-10 20:45:13] 23.5
+[PB Info 2024-Sep-10 20:45:23] 24.1
+[PB Info 2024-Sep-10 20:45:33] 24.9
+[PB Info 2024-Sep-10 20:45:43] 25.5
+[PB Info 2024-Sep-10 20:45:53] 26.2
+[PB Info 2024-Sep-10 20:46:03] 26.8
+[PB Info 2024-Sep-10 20:46:13] 27.4
+[PB Info 2024-Sep-10 20:46:23] 28.1
+[PB Info 2024-Sep-10 20:46:33] 28.8
+[PB Info 2024-Sep-10 20:46:43] 29.5
+[PB Info 2024-Sep-10 20:46:53] 30.1
+[PB Info 2024-Sep-10 20:47:03] 30.8
+[PB Info 2024-Sep-10 20:47:13] 31.5
+[PB Info 2024-Sep-10 20:47:23] 32.1
+[PB Info 2024-Sep-10 20:47:33] 32.7
+[PB Info 2024-Sep-10 20:47:43] 33.2
+[PB Info 2024-Sep-10 20:47:53] 34.0
+[PB Info 2024-Sep-10 20:48:03] 34.7
+[PB Info 2024-Sep-10 20:48:13] 35.4
+[PB Info 2024-Sep-10 20:48:23] 36.0
+[PB Info 2024-Sep-10 20:48:33] 36.7
+[PB Info 2024-Sep-10 20:48:43] 37.3
+[PB Info 2024-Sep-10 20:48:53] 37.9
+[PB Info 2024-Sep-10 20:49:03] 38.4
+[PB Info 2024-Sep-10 20:49:13] 39.0
+[PB Info 2024-Sep-10 20:49:23] 39.7
+[PB Info 2024-Sep-10 20:49:33] 40.2
+[PB Info 2024-Sep-10 20:49:43] 40.8
+[PB Info 2024-Sep-10 20:49:53] 41.4
+[PB Info 2024-Sep-10 20:50:03] 42.1
+[PB Info 2024-Sep-10 20:50:13] 42.6
+[PB Info 2024-Sep-10 20:50:23] 43.3
+[PB Info 2024-Sep-10 20:50:33] 43.8
+[PB Info 2024-Sep-10 20:50:43] 44.3
+[PB Info 2024-Sep-10 20:50:53] 44.9
+[PB Info 2024-Sep-10 20:51:03] 44.9
+[PB Info 2024-Sep-10 20:51:13] 45.4
+[PB Info 2024-Sep-10 20:51:23] 46.6
+[PB Info 2024-Sep-10 20:51:33] 48.2
+[PB Info 2024-Sep-10 20:51:43] 50.3
+[PB Info 2024-Sep-10 20:51:53] 52.0
+[PB Info 2024-Sep-10 20:52:03] 53.7
+[PB Info 2024-Sep-10 20:52:13] 54.9
+[PB Info 2024-Sep-10 20:52:23] 56.5
+[PB Info 2024-Sep-10 20:52:33] 58.3
+[PB Info 2024-Sep-10 20:52:43] 60.0
+[PB Info 2024-Sep-10 20:52:53] 61.7
+[PB Info 2024-Sep-10 20:53:03] 63.5
+[PB Info 2024-Sep-10 20:53:13] 65.2
+[PB Info 2024-Sep-10 20:53:23] 67.5
+[PB Info 2024-Sep-10 20:53:33] 69.8
+[PB Info 2024-Sep-10 20:53:43] 71.5
+[PB Info 2024-Sep-10 20:53:53] 73.8
+[PB Info 2024-Sep-10 20:54:03] 75.5
+[PB Info 2024-Sep-10 20:54:13] 77.1
+[PB Info 2024-Sep-10 20:54:23] 78.8
+[PB Info 2024-Sep-10 20:54:33] 80.4
+[PB Info 2024-Sep-10 20:54:43] 82.1
+[PB Info 2024-Sep-10 20:54:53] 83.9
+[PB Info 2024-Sep-10 20:55:03] 85.4
+[PB Info 2024-Sep-10 20:55:13] 87.5
+[PB Info 2024-Sep-10 20:55:23] 89.7
+[PB Info 2024-Sep-10 20:55:33] 91.4
+[PB Info 2024-Sep-10 20:55:43] 93.1
+[PB Info 2024-Sep-10 20:55:53] 94.9
+[PB Info 2024-Sep-10 20:56:03] 98.2
+[PB Info 2024-Sep-10 20:56:13] 100.0
+[PB Info 2024-Sep-10 21:00:19] BQSR and writing final BAM:  1586.251 seconds
+[PB Info 2024-Sep-10 21:00:19] ------------------------------------------------------------------------------
+[PB Info 2024-Sep-10 21:00:19] ||        Program:                          Marking Duplicates, BQSR        ||
+[PB Info 2024-Sep-10 21:00:19] ||        Version:                                           4.3.1-1        ||
+[PB Info 2024-Sep-10 21:00:19] ||        Start Time:                       Tue Sep 10 20:33:49 2024        ||
+[PB Info 2024-Sep-10 21:00:19] ||        End Time:                         Tue Sep 10 21:00:19 2024        ||
+[PB Info 2024-Sep-10 21:00:19] ||        Total Time:                          26 minutes 30 seconds        ||
+[PB Info 2024-Sep-10 21:00:19] ------------------------------------------------------------------------------
