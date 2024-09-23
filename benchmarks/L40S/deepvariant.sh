@@ -5,15 +5,17 @@ IN_BAM="$1"
 OUT_VCF="$(basename -s .bam $IN_BAM).deepvariant.vcf"
 LOG_FILE="$(basename -s .bam $IN_BAM).deepvariant.log"
 EXOME_FLAG="$2"
+NVME_DIR="/opt/dlami/nvme"
 
 # For A100 and H100 we can optimize clock frequency
 sudo viking-cpu-freq.sh
 
 docker run --gpus all --rm \
    --env TCMALLOC_MAX_TOTAL_THREAD_CACHE_BYTES=268435456 \
-   -v `pwd`/data:/data \
-   -v `pwd`/outdir:/outdir \
-   -v `pwd`/logs:/logs \
+    -v ${NVME_DIR}/data:/data \
+    -v ${NVME_DIR}/outdir:/outdir \
+    -v ${NVME_DIR}/logs:/logs \
+    -v ${NVME_DIR}/tmp:/tmp \
    ${DOCKER_IMAGE} pbrun deepvariant \
    --ref /data/ref/ucsc.hg19.fasta \
    --in-bam /outdir/${IN_BAM} \
@@ -25,4 +27,5 @@ docker run --gpus all --rm \
    --run-partition \
    --read-from-tmp-dir \
    --num-streams-per-gpu 4 \
-   --keep-tmp ${EXOME_FLAG}
+   --keep-tmp ${EXOME_FLAG} \
+   --tmp-dir /tmp

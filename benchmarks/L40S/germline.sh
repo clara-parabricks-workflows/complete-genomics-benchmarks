@@ -6,15 +6,17 @@ FASTQ_2="$2"
 OUT_BAM="$(basename -s .fq.gz $FASTQ_1).bam"
 OUT_VCF="$(basename -s .fq.gz $FASTQ_1).haplotype.vcf"
 LOG_FILE="$(basename -s .fq.gz $FASTQ_1).fq2bam.germline.log"
+NVME_DIR="/opt/dlami/nvme"
 
 # For A100 and H100 we can optimize clock frequency
 sudo viking-cpu-freq.sh
 
 docker run --gpus all --rm \
    --env TCMALLOC_MAX_TOTAL_THREAD_CACHE_BYTES=268435456 \
-   -v `pwd`/data:/data \
-   -v `pwd`/outdir:/outdir \
-   -v `pwd`/logs:/logs \
+    -v ${NVME_DIR}/data:/data \
+    -v ${NVME_DIR}/outdir:/outdir \
+    -v ${NVME_DIR}/logs:/logs \
+    -v ${NVME_DIR}/tmp:/tmp \
    ${DOCKER_IMAGE} pbrun germline \
    --ref /data/ref/ucsc.hg19.fasta \
    --in-fq /data/${FASTQ_1} /data/${FASTQ_2} \
@@ -26,5 +28,7 @@ docker run --gpus all --rm \
    --logfile /logs/${LOG_FILE} \
    --out-recal-file /outdir/recal.txt \
    --run-partition --no-alt-contigs \
-   --gpusort --gpuwrite --bwa-cpu-thread-pool 16 
+   --gpusort --gpuwrite --bwa-cpu-thread-pool 16 \
+   --tmp-dir /tmp 
+
    
