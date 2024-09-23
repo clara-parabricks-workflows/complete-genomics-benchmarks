@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# mkdir -p outdir
-# mkdir -p logs 
+# Do not forget to make data, logs, outdir, and tmp folders on
+# the nvme drive and move all the data over there 
 
-BENCHMARK_PATH="./benchmarks/L4"
+BENCHMARK_PATH="./benchmarks/L40S"
 
 # ============================================================
 
