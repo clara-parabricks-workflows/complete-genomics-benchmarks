@@ -12,15 +12,13 @@ NVME_DIR="/opt/dlami/nvme"
 docker run --gpus all --rm \
     --env TCMALLOC_MAX_TOTAL_THREAD_CACHE_BYTES=268435456 \
     -v ${NVME_DIR}/data:/data \
-    -v ${NVME_DIR}/outdir:/outdir \
-    -v ${NVME_DIR}/logs:/logs \
     -v ${NVME_DIR}/tmp:/tmp \
     ${DOCKER_IMAGE} pbrun deepvariant \
     --ref /data/ref/ucsc.hg19.fasta \
-    --in-bam /outdir/${IN_BAM} \
-    --out-variants /outdir/${OUT_VCF} \
+    --in-bam /data/outdir/${IN_BAM} \
+    --out-variants /data/outdir/${OUT_VCF} \
     --run-partition \
     --num-streams-per-gpu 4 \
-    --logfile /logs/${LOG_FILE} ${EXOME_FLAG} \
+    --logfile /data/logs/${LOG_FILE} ${EXOME_FLAG} \
     --tmp-dir /tmp
 
