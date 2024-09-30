@@ -21,7 +21,6 @@ docker run --gpus all --rm \
    --run-partition \
    --num-streams-per-gpu 4 \
    --logfile /data/logs/${LOG_FILE} \
-   --num-cpu-threads-per-stream 16 \
    --run-partition \
    --num-streams-per-gpu 4 \
    --keep-tmp ${EXOME_FLAG} \

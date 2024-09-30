@@ -2,4 +2,4 @@
 
 ./utils/sync_data.sh
 ./benchmark.sh 
-./preprocess.sh 
+# ./preprocess.sh 
