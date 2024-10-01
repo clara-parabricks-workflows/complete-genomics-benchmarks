@@ -5,7 +5,6 @@ IN_BAM="$1"
 OUT_VCF="$(basename -s .bam $IN_BAM).deepvariant.vcf"
 LOG_FILE="$(basename -s .bam $IN_BAM).deepvariant.log"
 EXOME_FLAG="$2"
-NVME_DIR="/opt/dlami/nvme"
 
 # For A100 and H100 we can optimize clock frequency
 # sudo ../viking-cpu-freq.sh

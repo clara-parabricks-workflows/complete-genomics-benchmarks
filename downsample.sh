@@ -1,10 +1,15 @@
 #!/bin/bash
 
-# Note: Check that seqtk is in the PATH 
+# Check that the environment variable is set 
+if [[ ! -v NVME_DIR ]]; then
+    echo "NVME_DIR environment variable is not set. Exiting."
+    exit
+fi
 
+DATA_DIR="${NVME_DIR}/data"
 SAMPLE_NAME="$(basename -s .fq.gz $1)"
 DOWNSAMPLE_FRAC="$2"
 
-gunzip data/"${SAMPLE_NAME}.fq.gz"
-seqtk sample -s100 "data/${SAMPLE_NAME}.fq" ${DOWNSAMPLE_FRAC} > data/${SAMPLE_NAME}.33x.fq
-gzip data/${SAMPLE_NAME}.33x.fq
+gunzip ${DATA_DIR}/"${SAMPLE_NAME}.fq.gz"
+seqtk sample -s100 "${DATA_DIR}/${SAMPLE_NAME}.fq" ${DOWNSAMPLE_FRAC} > ${DATA_DIR}/${SAMPLE_NAME}.30x.fq
+gzip ${DATA_DIR}/${SAMPLE_NAME}.30x.fq

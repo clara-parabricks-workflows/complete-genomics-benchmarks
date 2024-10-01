@@ -7,7 +7,6 @@ OUT_BAM="$(basename -s .fq.gz $FASTQ_1).bam"
 OUT_VCF="$(basename -s .fq.gz $FASTQ_1).haplotype.vcf"
 LOG_FILE="$(basename -s .fq.gz $FASTQ_1).fq2bam.germline.log"
 RECAL_FILE="$(basename -s .fq.gz $FASTQ_1).recal.txt"
-NVME_DIR="/opt/dlami/nvme"
 
 docker run --gpus all --rm \
     --env TCMALLOC_MAX_TOTAL_THREAD_CACHE_BYTES=268435456 \
