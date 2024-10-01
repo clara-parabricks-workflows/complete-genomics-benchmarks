@@ -1,7 +1,6 @@
 #!/bin/bash 
 
-# Note: Call this function from the root dir as ./data_procs/download_data.sh
-# so the data folder gets made in the root directory. 
+DATA_DIR="${NVME_DIR}/"
 
 mkdir -p data
 cd data
@@ -27,7 +26,7 @@ axel ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/Mills_and_1000
 axel ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/1000G_phase1.indels.hg19.sites.vcf.gz
 axel ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/1000G_phase1.indels.hg19.sites.vcf.idx.gz
 
-cd - 
+cd .. 
 
 # T7 NA12878 data
 # WGS
@@ -47,19 +46,4 @@ axel https://demodata.completegenomics.mgiamericas.com/CNR0175139/G400_PE150_NA1
 axel https://demodata.completegenomics.mgiamericas.com/CNR0117173/G400_PE150_NA12878_WES_MGIEasy_V5_Universal_Library_2.1.fq.gz 
 axel https://demodata.completegenomics.mgiamericas.com/CNR0117173/G400_PE150_NA12878_WES_MGIEasy_V5_Universal_Library_2.2.fq.gz 
 
-cd - 
-
-mkdir -p deepvariant_models
-cd deepvariant_models 
-
-# T7 weights 
-HTTPDIR=https://storage.googleapis.com/deepvariant/complete-case-study-testdata
-curl ${HTTPDIR}/complete-t7/weights-51-0.995354.ckpt.data-00000-of-00001 > weights-51-0.995354.ckpt.data-00000-of-00001
-curl ${HTTPDIR}/complete-t7/weights-51-0.995354.ckpt.index > weights-51-0.995354.ckpt.index
-
-# G400 weights 
-curl ${HTTPDIR}/complete-g400/weights-60-0.993753.ckpt.data-00000-of-00001 > weights-60-0.993753.ckpt.data-00000-of-00001
-curl ${HTTPDIR}/complete-g400/weights-60-0.993753.ckpt.index > weights-60-0.993753.ckpt.index
-
-cd - 
-
+cd .. 
