@@ -1,3 +1,6 @@
 outdir
 data
 run.sh
+picard.jar
+b37tohg19.chain
+rejected_variants.vcf
