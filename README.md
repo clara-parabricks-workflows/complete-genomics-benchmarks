@@ -16,7 +16,7 @@ Clone the repo and set the environment variable `NVME_DIR=/path/to/local/ssd`. P
 
 ## Benchmark the data 
 
-`benchmark.sh` is where the benchmarking scripts (located in `benchmarks` and separated by GPU hardware) are called. 
+`benchmark.sh [hardware]` is where the benchmarking scripts (located in `benchmarks` and separated by GPU hardware) are called. 
 
 ## Moving data to fast local SSD 
 
