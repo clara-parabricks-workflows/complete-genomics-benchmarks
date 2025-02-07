@@ -18,10 +18,8 @@ REF_DIR="/home/ubuntu/complete-genomics-benchmarks/data/ref"
 rsync -ah --progress ${REF_DIR}/ucsc.* ${NVME_DIR}/data/ref
 rsync -ah --progress ${REF_DIR}/dbsnp_151.vcf.gz ${NVME_DIR}/data/ref
 rsync -ah --progress ${REF_DIR}/dbsnp_151.vcf.gz.tbi ${NVME_DIR}/data/ref
-rsync -ah --progress ${REF_DIR}/1000G_phase1.indels.hg19.sites.vcf.gz ${NVME_DIR}/data/ref
-rsync -ah --progress ${REF_DIR}/1000G_phase1.indels.hg19.sites.vcf.idx ${NVME_DIR}/data/ref
-rsync -ah --progress ${REF_DIR}/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf.gz ${NVME_DIR}/data/ref
-rsync -ah --progress ${REF_DIR}/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf.idx ${NVME_DIR}/data/ref
+rsync -ah --progress ${REF_DIR}/1000G_phase1.indels.hg19.sites.vcf.* ${NVME_DIR}/data/ref
+rsync -ah --progress ${REF_DIR}/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf.* ${NVME_DIR}/data/ref
 
 # Move data files 
 echo "Moving data files"
