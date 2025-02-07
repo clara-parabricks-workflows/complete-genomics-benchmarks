@@ -3,6 +3,7 @@
 # Check that the environment variable is set 
 if [[ ! -v NVME_DIR ]]; then
     echo "NVME_DIR environment variable is not set. Exiting."
+    echo "export NVME_DIR=/opt/dlami/nvme"
     exit
 fi
 
@@ -11,6 +12,10 @@ REF_DIR="${DATA_DIR}/ref"
 
 mkdir -p ${DATA_DIR}
 mkdir -p ${REF_DIR}
+
+cd data && \ 
+    aws --profile complete s3 cp s3://cg-nvidia/DL100002760_L01_read_1.fq.gz . \ 
+    aws --profile complete s3 cp s3://cg-nvidia/DL100002760_L01_read_2.fq.gz .
 
 cd ${REF_DIR} && \
     wget -c ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.gz && \

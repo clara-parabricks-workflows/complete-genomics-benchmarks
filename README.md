@@ -6,19 +6,19 @@
 
 Clone the repo and set the environment variable `NVME_DIR=/path/to/local/ssd`. Parabricks benchmarks run best when run on a fast SSD that is local to the machine (not network storage). 
 
-## Downloading data 
+### Downloading data 
 
 `download.sh` downloads the data directly to `NVME_DIR`. 
 
-## Downsample the data 
+### Downsample the data 
 
 `downsample.sh` will downsample all the data to have the same coverage (30x). 
 
-## Benchmark the data 
+### Benchmark the data 
 
 `benchmark.sh [hardware]` is where the benchmarking scripts (located in `benchmarks` and separated by GPU hardware) are called. 
 
-## Moving data to fast local SSD 
+### Moving data to fast local SSD 
 
 `utils/move_data.sh` is a template for how to move selected files from `data` to `NVME_DIR`.  
 
