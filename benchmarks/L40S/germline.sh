@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-DOCKER_IMAGE="nvcr.io/nvidia/clara/clara-parabricks:4.1.0-1"
+DOCKER_IMAGE="nvcr.io/nvidia/clara/clara-parabricks:4.4.0-1"
 FASTQ_1="$1"
 FASTQ_2="$2"
 OUT_BAM="$(basename -s .fq.gz $FASTQ_1).bam"
@@ -24,6 +24,6 @@ docker run --gpus all --rm \
    --out-recal-file /data/outdir/${RECAL_FILE} \
    --run-partition --no-alt-contigs \
    --gpusort --gpuwrite \
-   --tmp-dir /tmp 
+   --tmp-dir /tmp --x3
 
    

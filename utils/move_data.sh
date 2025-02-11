@@ -25,5 +25,5 @@ rsync -ah --progress ${REF_DIR}/Mills_and_1000G_gold_standard.indels.hg19.sites.
 echo "Moving data files"
 DATA_DIR="/home/ubuntu/complete-genomics-benchmarks/data"
 
-rsync -ah --progress ${DATA_DIR}/DL100002760_L01_read_1.fq.gz ${NVME_DIR}/data 
-rsync -ah --progress ${DATA_DIR}/DL100002760_L01_read_2.fq.gz ${NVME_DIR}/data
+rsync -ah --progress ${DATA_DIR}/30x_DL100002760_L01_NA12878_1.fq.gz ${NVME_DIR}/data 
+rsync -ah --progress ${DATA_DIR}/30x_DL100002760_L01_NA12878_2.fq.gz ${NVME_DIR}/data

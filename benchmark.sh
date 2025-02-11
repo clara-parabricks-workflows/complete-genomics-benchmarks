@@ -24,8 +24,8 @@ mkdir -p ${NVME_DIR}/data/outdir
 # ============================================================
 
 # Sample T1Plus
-FASTQ_1="DL100002760_L01_read_1.fq.gz"
-FASTQ_2="DL100002760_L01_read_2.fq.gz"
+FASTQ_1="30x_DL100002760_L01_NA12878_1.fq.gz"
+FASTQ_2="30x_DL100002760_L01_NA12878_2.fq.gz"
 BAM="$(basename -s .fq.gz $FASTQ_1).bam"
 
 ${BENCHMARK_PATH}/germline.sh ${FASTQ_1} ${FASTQ_2} 

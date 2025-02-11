@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-DOCKER_IMAGE="nvcr.io/nvidia/clara/clara-parabricks:4.1.0-1"
+DOCKER_IMAGE="nvcr.io/nvidia/clara/clara-parabricks:4.4.0-1"
 IN_BAM="$1"
 OUT_VCF="$(basename -s .bam $IN_BAM).deepvariant.vcf"
 LOG_FILE="$(basename -s .bam $IN_BAM).deepvariant.log"
@@ -23,4 +23,4 @@ docker run --gpus all --rm \
    --run-partition \
    --num-streams-per-gpu 4 \
    --keep-tmp ${EXOME_FLAG} \
-   --tmp-dir /tmp
+   --tmp-dir /tmp --x3
