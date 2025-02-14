@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-# T1 Plus 
+# Note: Run script from project home dir 
 
 # Check that the environment variable is set 
 if [[ ! -v NVME_DIR ]]; then
@@ -9,21 +9,5 @@ if [[ ! -v NVME_DIR ]]; then
     exit
 fi
 
-mkdir -p ${NVME_DIR}/data/ref
-
-# Move reference files 
-echo "Moving reference files"
-REF_DIR="/home/ubuntu/complete-genomics-benchmarks/data/ref"
-
-rsync -ah --progress ${REF_DIR}/ucsc.* ${NVME_DIR}/data/ref
-rsync -ah --progress ${REF_DIR}/dbsnp_151.vcf.gz ${NVME_DIR}/data/ref
-rsync -ah --progress ${REF_DIR}/dbsnp_151.vcf.gz.tbi ${NVME_DIR}/data/ref
-rsync -ah --progress ${REF_DIR}/1000G_phase1.indels.hg19.sites.vcf.* ${NVME_DIR}/data/ref
-rsync -ah --progress ${REF_DIR}/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf.* ${NVME_DIR}/data/ref
-
-# Move data files 
-echo "Moving data files"
-DATA_DIR="/home/ubuntu/complete-genomics-benchmarks/data"
-
-rsync -ah --progress ${DATA_DIR}/30x_DL100002760_L01_NA12878_1.fq.gz ${NVME_DIR}/data 
-rsync -ah --progress ${DATA_DIR}/30x_DL100002760_L01_NA12878_2.fq.gz ${NVME_DIR}/data
+mkdir -p $NVME_DIR/data/ref
+rsync -ah --progress data $NVME_DIR
