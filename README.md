@@ -6,9 +6,13 @@
 
 Clone the repo and set the environment variable `NVME_DIR=/path/to/local/ssd`. Parabricks benchmarks run best when run on a fast SSD that is local to the machine (not network storage). 
 
+### Software Dependencies 
+
+`sudo apt install -y tabix bwa`
+
 ### Downloading data 
 
-`download.sh` downloads the data directly to `NVME_DIR`. 
+`download.sh` downloads all the necessary fastqs and reference files.  
 
 ### Downsample the data 
 
