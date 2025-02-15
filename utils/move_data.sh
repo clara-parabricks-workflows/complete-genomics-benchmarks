@@ -10,4 +10,6 @@ if [[ ! -v NVME_DIR ]]; then
 fi
 
 mkdir -p $NVME_DIR/data/ref
-rsync -ah --progress data $NVME_DIR
+
+# rsync -ah --progress data $NVME_DIR
+rsync -ah --progress $NVME_DIR/data . 

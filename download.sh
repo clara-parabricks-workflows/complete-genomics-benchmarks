@@ -9,9 +9,20 @@ fi
 
 DATA_DIR="$PWD/data"
 REF_DIR="$DATA_DIR/ref"
+TRUTH_DIR="$DATA_DIR/truth"
 
 mkdir -p $DATA_DIR
 mkdir -p $REF_DIR
+mkdir -p $TRUTH_DIR
+
+# Download files for concordance and liftover 
+# cd $TRUTH_DIR && \
+#     wget https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/NA12878_HG001/NISTv4.2.1/GRCh37/HG001_GRCh37_1_22_v4.2.1_benchmark.vcf.gz && \
+#     wget https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/NA12878_HG001/NISTv4.2.1/GRCh37/HG001_GRCh37_1_22_v4.2.1_benchmark.vcf.gz.tbi && \
+#     wget https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/NA12878_HG001/NISTv4.2.1/GRCh37/HG001_GRCh37_1_22_v4.2.1_benchmark.bed
+# wget https://github.com/broadinstitute/picard/releases/download/2.27.5/picard.jar
+# wget https://github.com/broadgsa/gatk/blob/master/public/chainFiles/b37tohg19.chain
+# wget http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/liftOver && chmod +x liftOver 
 
 # # Download data 
 # cd $DATA_DIR && \
