@@ -21,6 +21,7 @@ Other software prerequisites include:
 | bash | 4.3 | Use of namerefs |
 | bwa | 0.7.18 | Indexing the reference |
 | seqtk | 1.4 | Downsampling FASTQ |
+| pigz | 2.6 | Fast gzip dompression |
 
 To maximize Parabricks performance, it’s best that all the file reading and writing happen on the fast SSD on the machine. To find the path of the SSD, run: 
 
