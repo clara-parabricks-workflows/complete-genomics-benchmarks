@@ -18,6 +18,7 @@ Other software prerequisites include:
 
 | Software | Version | Purpose |
 | :----------------: | :------: | :----: |
+| bash | 4.3 | Use of namerefs |
 | bwa | 0.7.18 | Indexing the reference |
 | seqtk | 1.4 | Downsampling FASTQ |
 
