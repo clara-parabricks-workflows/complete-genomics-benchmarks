@@ -1,29 +1,35 @@
-# Benchmarking Whole Genome and Whole Exome Data from Complete Genomics using Parabricks on AWS 
+# Benchmarking Alignment and Variant Calling on Whole Genome Data from Complete Genomics using Parabricks on AWS 
 
 This is a quick start guide for benchmarking Parabricks germline workflows using data from Complete Genomics sequencers. Parabricks is a GPU accelerated toolkit for secondary analysis in genomics. In this guide, we will show that Parabricks runs in a fast, and therefore cost effective, manner on the cloud using data from the DNBSEQ-T7 and DNBSEQ-G400 sequencers from Complete Genomics. 
 
 Genomic files such as FASTQ and BAM files can easily reach into the hundreds of GB each. When running studies that involve hundreds of thousands of these files, it easily becomes terabytes of data and processing all of that data becomes very costly. This is especially apparent when running on the cloud where users are charged by the hour, so every minute of compute counts. The faster we can churn through this data, the lower the cost will be. 
 
+## Quick Start 
+
+To get started as quickly as possible, run these two scripts: 
+
+```
+./install.sh 
+./run.sh 
+```
+
 ## Pre-Requisites 
 ### Software
-These benchmarks were performed using Parabricks version 4.0.1-1 which is publicly available as a Docker container on the NVIDIA GPU Cloud (NGC) by running the following command: 
+These benchmarks were performed using Parabricks version 4.4.0-1 which is publicly available as a Docker container on the NVIDIA GPU Cloud (NGC) by running the following command: 
 
-`docker pull nvcr.io/nvidia/clara/clara-parabricks:4.0.1-1`
+`docker pull nvcr.io/nvidia/clara/clara-parabricks:4.4.0-1`
 
 Other software prerequisites include: 
 
 | Software | Version | Purpose |
 | :----------------: | :------: | :----: |
-| bwa | 0.7.18 | Indexing the reference |
-| seqtk | 1.4 | Downsampling FASTQ |
+| [bwa](https://github.com/lh3/bwa) | 0.7.18 | Indexing the reference |
+| [seqtk](https://github.com/lh3/seqtk) | 1.4 | Downsampling FASTQ |
+| [pigz](https://linux.die.net/man/1/pigz) | 2.6 | Fast gzip compression |
 
-To maximize Parabricks performance, it’s best that all the file reading and writing happen on the fast SSD on the machine. To find the path of the SSD, run: 
+These packages can be installed by running
 
-`lsblk`
-
-Export the mount point as the environment variable NVME_DRIVE so that the scripts in this repo know where to download and run the data from: 
-
-`export NVME_DRIVE=/opt/dlami/nvme`
+`./install.sh` 
 
 ### Hardware
 For Parabricks, there are two categories of GPUs that we recommend: High Performance GPUs (A100, H100, L40S) and Low Cost GPUs (A10, L4). These benchmarks were validated using L40S instances and L4 instances on AWS, however any similarly configured machine will work. Be sure to check the Parabricks documentation for minimum requirements. Below are the exact configurations used in our validation: 
@@ -41,12 +47,12 @@ For Parabricks, there are two categories of GPUs that we recommend: High Perform
 ## Dataset
 For these benchmarks we will use NA12878 whole genome (WGS) data from the DNBSEQ-T7 and DNBSEQ-G400 Complete Genomics sequencers. All the data including the FASTQ, reference, and other accessory files are hosted publicly and can be downloaded using: 
 
-`download.sh`
+`./download.sh`
 
 ### Pre-Processing
 The data as it exists publicly is almost ready to use for our benchmarking. For an apples-to-apples comparison, we want both of the WGS samples to have the same coverage. The T7 WGS data has a coverage of 46x and the G400 WGS data has a coverage of 30x. To resolve this, we will downsample the T7 WGS data by 65%. To achieve this, we can run: 
 
-`downsample.sh 0.65` 
+`./downsample.sh <T7_file> 0.65` 
 
 This will rename E100030471QC960_L01_48_1.fq.gz to E100030471QC960_L01_48_1.30x.fq.gz and then the data will be ready to run through the benchmarks. 
 
@@ -75,8 +81,12 @@ For each set of hardware, there is a germline and a deepvariant script. The sepa
 
 The benchmark.sh script accepts one argument for the hardware type, which matches the folder name within the benchmarks folder. For example, to run the L4 benchmarks, we can run: 
 
-`./benchmarks L4`
+`./benchmark.sh L4`
 
 and similarly to run the L40S benchmarks, we can run: 
 
-`./benchmarks L40S`
+`./benchmark.sh L40S`
+
+### Performance optimization 
+
+To maximize Parabricks performance, it’s best that all the file reading and writing happen on the fast SSD on the machine. 

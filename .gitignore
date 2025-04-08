@@ -1,6 +1,7 @@
 outdir
-data
-run.sh
+data*
 picard.jar
 b37tohg19.chain
 rejected_variants.vcf
+logs
+liftOver
