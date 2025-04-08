@@ -46,7 +46,7 @@ cd $REF_DIR && bwa index ucsc.hg19.fasta
 index_files=("Mills_and_1000G_gold_standard.indels.hg19.sites" "1000G_phase1.indels.hg19.sites")
 for index in ${index_files[@]}; do
     cd $REF_DIR && \
-        gunzip $index.vcf.gz && \
+        pigz -d $index.vcf.gz && \
         bgzip $index.vcf && \
         tabix -p vcf $index.vcf.gz 
 done
