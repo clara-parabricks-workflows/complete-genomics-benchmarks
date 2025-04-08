@@ -6,7 +6,10 @@ Genomic files such as FASTQ and BAM files can easily reach into the hundreds of 
 
 ## TODO: Quick Start 
 
-`./run.sh`
+```
+./install.sh 
+./run.sh
+```
 
 ## Pre-Requisites 
 ### Software
@@ -21,6 +24,10 @@ Other software prerequisites include:
 | [bwa](https://github.com/lh3/bwa) | 0.7.18 | Indexing the reference |
 | [seqtk](https://github.com/lh3/seqtk) | 1.4 | Downsampling FASTQ |
 | [pigz](https://linux.die.net/man/1/pigz) | 2.6 | Fast gzip dompression |
+
+These packages can be installed by running
+
+`./install.sh` 
 
 To maximize Parabricks performance, it’s best that all the file reading and writing happen on the fast SSD on the machine. To find the path of the SSD, run: 
 
