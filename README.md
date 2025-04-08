@@ -10,18 +10,17 @@ Genomic files such as FASTQ and BAM files can easily reach into the hundreds of 
 
 ## Pre-Requisites 
 ### Software
-These benchmarks were performed using Parabricks version 4.0.1-1 which is publicly available as a Docker container on the NVIDIA GPU Cloud (NGC) by running the following command: 
+These benchmarks were performed using Parabricks version 4.4.0-1 which is publicly available as a Docker container on the NVIDIA GPU Cloud (NGC) by running the following command: 
 
-`docker pull nvcr.io/nvidia/clara/clara-parabricks:4.0.1-1`
+`docker pull nvcr.io/nvidia/clara/clara-parabricks:4.4.0-1`
 
 Other software prerequisites include: 
 
 | Software | Version | Purpose |
 | :----------------: | :------: | :----: |
-| bash | 4.3 | Use of namerefs |
-| bwa | 0.7.18 | Indexing the reference |
-| seqtk | 1.4 | Downsampling FASTQ |
-| pigz | 2.6 | Fast gzip dompression |
+| [bwa](https://github.com/lh3/bwa) | 0.7.18 | Indexing the reference |
+| [seqtk](https://github.com/lh3/seqtk) | 1.4 | Downsampling FASTQ |
+| [pigz](https://linux.die.net/man/1/pigz) | 2.6 | Fast gzip dompression |
 
 To maximize Parabricks performance, it’s best that all the file reading and writing happen on the fast SSD on the machine. To find the path of the SSD, run: 
 
